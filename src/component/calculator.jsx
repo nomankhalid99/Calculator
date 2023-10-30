@@ -85,14 +85,6 @@ const Calculator = () => {
                 <Button variant="contained" className="reset-btn btn" fullWidth onClick={() => handleButtonClick("C")}>C</Button>
             </Grid>
         </Grid>
-        {/* <TextField
-          variant="outlined"
-          fullWidth
-          value={result}
-          inputProps={{
-            readOnly: true
-          }}
-        /> */}
     </div>
   )
 }
