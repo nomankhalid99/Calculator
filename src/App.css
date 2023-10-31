@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body{
+  background: rgba(148,187,233,1);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(75, 157, 212);
+  box-shadow: 0px 0px 10px rgb(54, 54, 54);
 }
+.container .input{
+  margin-bottom: 25px;
+}
+.container .input .MuiOutlinedInput-root{
+  font-size: 30px;
+  border-radius: 15px;
+  background-color: rgb(216, 221, 219);
+  box-shadow: 0px 2px 3px rgb(54, 54, 54);
+}
+.container .input .MuiOutlinedInput-root .MuiOutlinedInput-input:hover{
+  outline: transparent;
+}
+.container .btn{
+  padding: 12px;
+  font-size: 20px;
+}
+ .container .count-btn{
+  background-color: #fff;
+  color: black;
+}
+.container .count-btn:hover{
+   background-color: #d4d4d4;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ }
+ .container .arthmatic-btn{
+   background-color:rgb(27, 77, 103);
   }
-}
+  .container .arthmatic-btn:hover{
+  background-color:rgb(29, 94, 130);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ }
+ .container .equal-btn{
+   background-color: rgb(105, 169, 42);
   }
-  to {
-    transform: rotate(360deg);
-  }
+  .container .equal-btn:hover{
+  background-color: rgb(89, 142, 35);
+ }
+ .container .reset-btn{
+  background-color: orange;
 }
+.container .reset-btn:hover{
+  background-color: rgb(228, 148, 1);
+  
+ }
+
+ @media (max-width : 1300px) {
+  .container{
+    width: 30%;
+  }
+ }
+ @media (max-width : 900px) {
+  .container{
+    width: 40%;
+  }
+ }
+ @media (max-width : 700px) {
+  .container{
+    width: 50%;
+  }
+ }
+ @media (max-width : 550px) {
+  .container{
+    width: 75%;
+  }
+ }
