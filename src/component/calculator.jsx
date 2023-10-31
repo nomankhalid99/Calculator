@@ -33,15 +33,15 @@ const Calculator = () => {
           }}
         />
         <Grid container  spacing={1}>
-            <Grid item xs={3}>
-                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("1")}>1</Button>
+        <Grid item xs={3}>
+                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("7")}>7</Button>
             </Grid>
             <Grid item xs={3}>
-                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("2")}>2</Button>
+                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("8")}>8</Button>
             </Grid>
             <Grid item xs={3}>
-                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("3")}>3</Button>
-            </Grid>
+                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("9")}>9</Button>
+            </Grid> 
             <Grid item xs={3}>
                 <Button variant="contained" className='arthmatic-btn btn' fullWidth onClick={() => handleButtonClick("/")}>/</Button>
             </Grid>
@@ -58,13 +58,13 @@ const Calculator = () => {
                 <Button variant="contained" className='arthmatic-btn btn' fullWidth onClick={() => handleButtonClick("*")}>*</Button>
             </Grid>
             <Grid item xs={3}>
-                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("7")}>7</Button>
+                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("1")}>1</Button>
             </Grid>
             <Grid item xs={3}>
-                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("8")}>8</Button>
+                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("2")}>2</Button>
             </Grid>
             <Grid item xs={3}>
-                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("9")}>9</Button>
+                <Button variant="contained" className="count-btn btn" fullWidth onClick={() => handleButtonClick("3")}>3</Button>
             </Grid> 
             <Grid item xs={3}>
                 <Button variant="contained" className='arthmatic-btn btn' fullWidth onClick={() => handleButtonClick("-")}>-</Button>
