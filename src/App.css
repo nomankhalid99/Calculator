@@ -21,9 +21,6 @@ body{
   background-color: rgb(216, 221, 219);
   box-shadow: 0px 2px 3px rgb(54, 54, 54);
 }
-.container .input .MuiOutlinedInput-root .MuiOutlinedInput-input:hover{
-  outline: transparent;
-}
 .container .btn{
   padding: 12px;
   font-size: 20px;
