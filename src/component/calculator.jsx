@@ -4,7 +4,6 @@ import {Button, Grid, TextField} from '@mui/material'
 
 const Calculator = () => {
     const [display, setDisplay] = useState('0');
-    // const [result , setResult] = useState('');
 
     const handleButtonClick = (value) => {
         if(display === '0' && value !== '=' && value !== 'C'){
